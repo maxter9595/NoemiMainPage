@@ -157,6 +157,7 @@
     .tags-post {
         position: relative;
         display: flex;
+        flex-wrap: wrap;
         font-size: 14px;
         color: #B59F5B;
         text-transform: uppercase;
@@ -609,8 +610,14 @@
         cursor: pointer;
         -webkit-appearance: none;
         -moz-appearance: none;
+        border: 2.5px solid transparent;
     }
-    
+
+    .popup__select:focus {
+        outline: none;
+        border-color: rgb(235,231,215);
+    }
+
     .popup__select_indent {
         margin-top: 3.57%;
         margin-bottom: 11.1%;
@@ -668,6 +675,12 @@
         font-size: inherit;
         background-color: #f4f7f6;
         color: rgba(155, 156, 156, 1);
+        border: 2.5px solid transparent;
+    }
+
+    .popup__textarea:focus {
+        outline: none;
+        border-color: rgb(235,231,215);
     }
     
     .button__popup {
