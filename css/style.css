@@ -610,12 +610,12 @@
         cursor: pointer;
         -webkit-appearance: none;
         -moz-appearance: none;
-        border: 2.5px solid transparent;
+        border: 2px solid transparent;
     }
 
     .popup__select:focus {
         outline: none;
-        border-color: rgb(235,231,215);
+        border-color: rgb(181,159,91);
     }
 
     .popup__select_indent {
@@ -675,12 +675,12 @@
         font-size: inherit;
         background-color: #f4f7f6;
         color: rgba(155, 156, 156, 1);
-        border: 2.5px solid transparent;
+        border: 2px solid transparent;
     }
 
     .popup__textarea:focus {
         outline: none;
-        border-color: rgb(235,231,215);
+        border-color: rgb(181,159,91);
     }
     
     .button__popup {
