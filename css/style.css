@@ -615,7 +615,7 @@
 
     .popup__select:focus {
         outline: none;
-        border-color: rgb(181,159,91);
+        border-color: rgb(181,159,90);
     }
 
     .popup__select_indent {
@@ -680,7 +680,7 @@
 
     .popup__textarea:focus {
         outline: none;
-        border-color: rgb(181,159,91);
+        border-color: rgb(181,159,90);
     }
     
     .button__popup {
